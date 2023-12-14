@@ -1,8 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap");
 
+:root {
+  --branco-primario: #fafafa;
+  --cor-texto: #333;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+}
+
+header.bg-gradient {
+  background: linear-gradient(
+    137deg,
+    #ac3ef0 13.13%,
+    #5b088e 78.26%
+  ) !important;
+}
+
+.tx-branco-primario {
+  color: var(--branco-primario);
+}
+
+.bg-branco-primario {
+  background-color: var(--branco-primario);
+}
+
+.image-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.card-conta {
+  max-width: 100px !important;
+}
+
+.btn-adicionar {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 12px !important;
+  padding: 3px 6px;
+  text-decoration: none;
+}
+
+.box-btn-add {
+  max-width: 150px !important;
+}
+
+.box-total {
+  max-width: 100px !important;
+}
+
+.total {
+  font-size: 12px !important;
+}
+
+.account-prince {
+  font-size: 12px;
 }
