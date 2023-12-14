@@ -12,6 +12,10 @@
   font-family: "Nunito", sans-serif;
 }
 
+p {
+  margin: 0 !important;
+}
+
 header.bg-gradient {
   background: linear-gradient(
     137deg,
@@ -59,4 +63,44 @@ header.bg-gradient {
 
 .account-prince {
   font-size: 12px;
+}
+
+.categoria {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 15px;
+  justify-content: space-around;
+}
+
+.categoria .infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.categoria .infos p {
+  margin: 0;
+}
+
+.categoria img {
+  width: 44px;
+}
+
+.categoria .actions {
+  display: flex;
+  gap: 16x;
+}
+
+.categoria .actions img {
+  width: 24px;
+}
+
+.see-all {
+  max-width: 300px;
+  width: 300px;
+  margin: 0 auto;
 }
